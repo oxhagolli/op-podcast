@@ -25,7 +25,7 @@ export class EmailForm extends Component {
         email: this.state.email,
       })
     );
-    this.setState({ message: 'Thank you!' });
+    this.setState({ message: 'Thank you!', email: '' });
     setTimeout(() => {
       this.setState({ message: '' });
     }, 3000);
